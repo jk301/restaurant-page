@@ -1,8 +1,0 @@
-/* About page css*/
-.about-div {
-    width: 60%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-}
