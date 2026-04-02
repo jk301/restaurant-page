@@ -1,4 +1,79 @@
 /* styles.css */
 body {
-  background-color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-image: url(./img/conor-sexton-hRemch0ZDwI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80px;
+    background: rgba(0 0 0 / 0.8);
+    color: antiquewhite;
+
+}
+header > :first-child {
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 40px;
+}
+header > :last-child {
+    margin-right: 40px;
+}
+header > nav > button {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    outline: none;
+    border-style: none;
+    transform: none;
+    font-family: inherit;
+    font-size: 25px;
+    padding: 30px;
+    background-color: transparent;
+    height: 80px;
+    border-bottom: 3px solid transparent;
+}
+header > nav > button:hover {
+    color: #d4820a;
+}
+header > nav > button:active {
+    color: #d4820a;
+    border-bottom: 3px solid #d4820a; 
+}
+header > nav > button.active {
+    color: #d4820a;
+    border-bottom: 3px solid #d4820a; 
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    background: rgba(0 0 0 / 0.8);
+    color: rgb(167, 157, 144);
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background: rgba(0 0 0 / 0.5);
 }
